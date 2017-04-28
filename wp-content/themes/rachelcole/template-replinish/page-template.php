@@ -2,140 +2,14 @@
 /*
 Template Name: Replinish Page
 */
+
+
+get_header('replinish');
 ?>
 
-<!DOCTYPE html>
-<!-- saved from url=(0017)http://feast.dev/ -->
-<html class="no-js wf-inactive" lang="en-US" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Feast - Become a Well-fed Woman in 2017</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="http://feast.dev/wp-content/themes/rachelcole/assets/img/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="Feast 2015 Feed" href="http://feast.dev/feed/">
-
-  <!-- Typekit -->
-  <script type="text/javascript" async="" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/ga.js"></script><script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/knp4xri.js"></script>
-  <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-adobe-garamond-pro{font-family:"adobe-garamond-pro",sans-serif;}.tk-soleil{font-family:"soleil",sans-serif;}</style><script>try{Typekit.load();}catch(e){}</script>
-
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Find peace with food and begin to feast on your life - a masterclass from Rachel W Cole.">
-<link rel="canonical" href="http://feast.dev/">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Feast - Become a Well-fed Woman in 2017">
-<meta property="og:description" content="FEAST is an intensive 3-month masterclass for women who want to come home to themselves, make peace with food, and feast on their lives.">
-<meta property="og:url" content="http://feast.dev/">
-<meta property="og:site_name" content="Feast 2015">
-<meta property="og:image" content="http://feast.rachelwcole.com/wp-content/uploads/2014/11/interest_homepage-image.jpg">
-<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://feast.dev/", "potentialAction": { "@type": "SearchAction", "target": "http://feast.dev/?s={search_term}", "query-input": "required name=search_term" } }</script>
-<!-- / Yoast WordPress SEO plugin. -->
-
-<link rel="alternate" type="application/rss+xml" title="Feast 2015 » Feast Sign Up Comments Feed" href="http://feast.dev/signup/feed/">
-<!-- <link rel="stylesheet" id="roots_css-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.min.css" type="text/css" media="all"> -->
-<link rel="stylesheet" id="fancybox-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.fancybox-1.3.7.min.css" type="text/css" media="screen">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://feast.dev/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://feast.dev/wp-includes/wlwmanifest.xml">
-<meta name="generator" content="WordPress 4.0.17">
-<link rel="shortlink" href="http://feast.dev/">
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-21603057-1']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-  <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-
-<!-- Easy FancyBox 1.5.7 using FancyBox 1.3.7 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var fb_timeout = null;
-var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
-var easy_fancybox_handler = function(){
-  /* IMG */
-  var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox)';
-  jQuery(fb_IMG_select).addClass('fancybox image');
-  var fb_IMG_sections = jQuery('div.gallery');
-  fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
-  jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'type' : 'image', 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
-  /* Inline */
-  jQuery('a.fancybox-inline, area.fancybox-inline, li.fancybox-inline a').fancybox( jQuery.extend({}, fb_opts, { 'type' : 'inline', 'autoDimensions' : true, 'scrolling' : 'no', 'easingIn' : 'easeOutBack', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false }) );
-  /* Auto-click */
-  jQuery('#fancybox-auto').trigger('click');
-}
-/* ]]> */
-</script>
-<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
-.en-markup-crop-options {
-    top: 18px !important;
-    left: 50% !important;
-    margin-left: -100px !important;
-    width: 200px !important;
-    border: 2px rgba(255,255,255,.38) solid !important;
-    border-radius: 4px !important;
-}
-
-.en-markup-crop-options div div:first-of-type {
-    margin-left: 0px !important;
-}
-</style></head>
-<body class="home page page-id-269 page-template page-template-template_feast_new-php">
-
-  <!--[if lt IE 8]>
-    <div class="alert alert-warning">
-      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
-  <![endif]-->
-
-
-  <div class="wrap container" role="document">
-    <div class="content row">
-      <main class="main" role="main">
 
 
 
-<!-- Kill Grid/Container/etc. -->
-</main></div>
-  </div>
-<!-- End Kill -->
-
-
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/new_feast.css" media="all">
-    <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.js"></script>
-    <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.bxslider.min.js"></script>
-    <link href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.bxslider.css" rel="stylesheet">
-
-
-<script type="text/javascript">
-$(document).ready(function(){ var j = jQuery.noConflict();
-
-$('.testimonial_slider').bxSlider({
-auto:true,
-speed: 2000,
-pause:6000,
-mode:'fade'
-});
-
-$('.testimonial_slider_new').bxSlider({
-auto:true,
-speed: 500,
-pause:6000,
-mode:'fade',
-pager:true
-
-});
-
-});
-</script>
   <div class="header2">
         <div class="holder clearfix">
           <div class="logo">
@@ -1961,25 +1835,4 @@ to becoming a Well-fed Woman.</p>
       </div>
 </footer>
 
-  <link rel="stylesheet" id="gforms_reset_css-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/formreset.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="gforms_formsmain_css-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/formsmain.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="gforms_ready_class_css-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/readyclass.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="gforms_browsers_css-css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/browsers.min.css" type="text/css" media="all">
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/modernizr.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.min(1).js"></script>
-<script>window.jQuery || document.write('<script src="http://feast.dev/wp-content/themes/rachelcole/assets/vendor/jquery/dist/jquery.min.js?1.11.1"><\/script>')</script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/scripts.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.json.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/gravityforms.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/placeholders.jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.fancybox-1.3.7.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.easing.pack.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.mousewheel.min.js"></script>
-
-<script type="text/javascript">
-jQuery(document).on('ready post-load', easy_fancybox_handler );
-</script>
-
-
-
-<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="window-resizer-tooltip" style="display: none;"><a href="http://feast.dev/#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1440</span> x <span class="tooltipHeight" id="winHeight">873</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1440</span> x <span class="tooltipHeight" id="vpHeight">360</span></div></body></html>
+<?php get_footer('replinish');
