@@ -10,8 +10,9 @@
   <link rel="alternate" type="application/rss+xml" title="Feast 2015 Feed" href="http://feast.dev/feed/">
 
   <!-- Typekit -->
-  <script type="text/javascript" async="" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/ga.js"></script><script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/knp4xri.js"></script>
-  <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-adobe-garamond-pro{font-family:"adobe-garamond-pro",sans-serif;}.tk-soleil{font-family:"soleil",sans-serif;}</style><script>try{Typekit.load();}catch(e){}</script>
+
+      <script src="//use.typekit.net/lug2lpk.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 
 <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="Find peace with food and begin to feast on your life - a masterclass from Rachel W Cole.">
@@ -79,6 +80,7 @@ var easy_fancybox_handler = function(){
 }
 </style>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/new_feast.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/replinish.css" media="all">
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.js"></script>
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.bxslider.min.js"></script>

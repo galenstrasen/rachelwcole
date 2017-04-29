@@ -6,128 +6,19 @@ Template Name: Replinish Page
 
 get_header('replinish');
 ?>
+<div class="main">
+  <?php
+
+  get_template_part('/template-replinish/partials/hero');
+  get_template_part('/template-replinish/partials/nav');
+  get_template_part('/template-replinish/partials/section1');
+  get_template_part('/template-replinish/partials/section2');
+    get_template_part('/template-replinish/partials/section3');
+    get_template_part('/template-replinish/partials/section4');
+    get_template_part('/template-replinish/partials/section5');
+  ?>
 
 
-
-
-  <div class="header2">
-        <div class="holder clearfix">
-          <div class="logo">
-             <a class="sol return-link" href="http://rachelwcole.com/"><img src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/icon_arrow.png" alt=""> Return to rachelwcole.com</a>
-          </div>
-
-        </div>
-      </div>
-        <div class="main">
-            <section class="section-wc">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-                      <div class="return-btn">
-
-                    </div>
-            </div>
-            <div class="col-sm-8">
-            <!--  Hold Grid -->
-            </div>
-          </div>
-        </div>
-                <div class="welcome">
-                    <img class="img-responsive" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/image_feast.png" alt="">
-                    <h2>A 3-month journey to becoming a Well-fed Woman</h2>
-                    <p>from Rachel W. Cole</p>
-                </div>
-            </section>
-            <!--  Add navbar-fixed-top on scroll to make nav sticky-->
-            <nav class="navbar navbar-default navbar-color" id="menu" data-spy="affix" data-offset-top="600" data-offset-bottom="65">
-                  <div class="container">
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#center-nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="http://feast.dev/#"><img src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/image_logo-sm.png" style="height:30px;" alt=""></a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="center-nav">
-                      <ul class="nav navbar-nav">
-                        <li><a href="http://feast.dev/#theprogram">THE PROGRAM</a></li>
-                        <li><a href="http://feast.dev/#about">ABOUT RACHEL</a></li>
-                        <li><a href="http://feast.dev/#Schedule">SCHEDULE</a></li>
-                        <li><a href="http://feast.dev/#incl">WHAT'S INCLUDED</a></li>
-
-                        <li><a href="http://feast.dev/#invest">INVESTMENT</a></li>
-            <li><a href="http://feast.dev/#praise">PRAISE</a></li>
-                        <li><a href="http://feast.dev/#faqsection">FAQs</a></li>
-                      </ul>
-
-                        <ul class="nav navbar-nav navbar-right nav-apply">
-                            <li><a class="nav-btn btn-colored fancybox-inline" href="http://feast.dev/#signup-box-popup">Get Notified</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-            </nav>
-<div id="signup-box-popup-holder">
-            <div id="signup-box-popup">
-                <div id="newsletter_signup">
-
-                <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_1"><a id="gf_1" class="gform_anchor"></a><form method="post" enctype="multipart/form-data" target="gform_ajax_frame_1" id="gform_1" action="http://feast.dev/#gf_1">
-                        <div class="gform_heading">
-                            <span class="gform_description"><p>Sign up to be first in line.</p><small>Be the first to know when registration opens!<br>Spaces are filled on the first-come, first-apply basis.</small></span>
-                        </div>
-                        <div class="gform_body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below"><li id="field_1_1" class="gfield field_sublabel_below field_description_below"><label class="gfield_label" for="input_1_1">first name</label><div class="ginput_container ginput_container_text"><input name="input_1" id="input_1_1" type="text" value="" class="large" tabindex="1" placeholder="first name"></div></li><li id="field_1_2" class="gfield field_sublabel_below field_description_below"><label class="gfield_label" for="input_1_2">email address</label><div class="ginput_container ginput_container_email">
-                            <input name="input_2" id="input_1_2" type="text" value="" class="large" tabindex="2" placeholder="email address">
-                        </div></li>
-                            </ul></div>
-        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Sign Up" tabindex="3" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  "> <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=&amp;description=1&amp;tabindex=1">
-            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
-            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
-
-            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsImVlMjRlM2E1ZTQ0YmY0Y2NiZDY2MGI4OTQ1OWVkMmFkIl0=">
-            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
-            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
-            <input type="hidden" name="gform_field_values" value="">
-
-        </div>
-                        </form>
-                        </div>
-                <iframe style="display:none;width:0px;height:0px;" src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/saved_resource.html" name="gform_ajax_frame_1" id="gform_ajax_frame_1"></iframe>
-                <script type="text/javascript">jQuery(document).ready(function($){gformInitSpinner( 1, 'http://feast.dev/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_1').load( function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'http://feast.dev/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('#gforms_confirmation_message_1').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith('<' + 'div id=\'gforms_confirmation_message_1\' class=\'gform_confirmation_message_1 gforms_confirmation_message\'' + '>' + confirmation_content + '<' + '/div' + '>');jQuery(document).scrollTop(jQuery('#gforms_confirmation_message_1').offset().top);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );</script><script type="text/javascript"> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"http:\/\/feast.dev\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"http:\/\/feast.dev\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
-                        Placeholders.enable();
-                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type="text/javascript"> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>                </div>
-            </div>
-          </div>
-            <section class="section1 section">
-                <div class="container-fluid container-sm">
-                    <div class="row">
-                        <div class="col-md-12">
-                          <div id="section1" class="section">
-
-                <div class="section-title">
-<h2 class="section-header">At the very core we’re hungry for peace.</h2>
-</div>
-<p>Peace with ourselves. With food. With life.</p>
-<p>Here are a few things you already know:</p>
-<p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-<p>Deep down you know you are are worth more than any number or size.</p>
-<p>You also know that you are deserving of the same kindness, trust, and compassion you show to those you care about.</p>
-<p>You know that peace cannot be faked. You don’t want to try to fake it anymore. You are starving for the real-deal ease-in-your-own-skin exhale-inducing comes-from-the-inside peace.</p>
-<p>But somewhere along the way, you started to believe that it wasn’t safe to trust yourself. To trust your hungers. To feed yourself what you’ve been hungering for your whole life.</p>
-<p>I know the struggle well because it was once mine. I have been there.</p>
-<p>I know that a hungry woman, which I was for many years, is consumed by what she is hungry for. I also know that a Well-fed Woman consumes what she’s hungry for and is free because of that.</p>
-<p>I believe you were meant for more than you’ve been told and sold.</p>
-<p>Today, my life’s work is to teach, model, and encourage women to trust their hungers and to not stop until they’re full.</p>
-
-                        </div>
-            <a name="theprogram"></a>
-            </div>
-                    </div>
-                </div>
-
-            </section>
 
             <section class="section2 section agp">
                 <div class="container-fluid container-sm ta-center">
