@@ -85,28 +85,26 @@ var easy_fancybox_handler = function(){
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.js"></script>
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.bxslider.min.js"></script>
     <link href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.bxslider.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){ var j = jQuery.noConflict();
+  $(document).ready(function(){
 
-$('.testimonial_slider').bxSlider({
-auto:true,
-speed: 2000,
-pause:6000,
-mode:'fade'
-});
+    var j = jQuery.noConflict();
 
-$('.testimonial_slider_new').bxSlider({
-auto:true,
-speed: 500,
-pause:6000,
-mode:'fade',
-pager:true
 
-});
+    $('.js-testimonial-slider').slick({
+      dots: true,
+      arrows: true,
+      autoplay: true,
 
-});
+      prevArrow: '<button type="button" class="slick-arrow slick-prev"></button>',
+      nextArrow: '<button type="button" class="slick-arrow slick-next"></button>'
+    });
+
+
+  });
 </script>
 
 
