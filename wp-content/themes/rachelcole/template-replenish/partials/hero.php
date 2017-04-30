@@ -1,7 +1,7 @@
 
 
 
- <section class="replenish-hero bg-img">
+ <section class="replenish-hero bg-img" id="top">
   <div class="welcome">
       <img class="img-responsive logo" src="<?php bloginfo('template_url')?>/template-replenish/assets/img/logo-hero.png" alt="Replenish - A Women's Retreat in Esperero Canyon">
       <h2>A Women's Retreat in Esperero Canyon</h2>

@@ -1,4 +1,4 @@
-<section class="section5 bg-darken collage">
+<section class="section5 bg-darken collage" id="schedule">
   <div class="collage-section">
     <div class="container-fluid">
       <div class="row">

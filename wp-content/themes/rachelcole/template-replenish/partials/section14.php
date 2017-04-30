@@ -1,4 +1,4 @@
-<section class="section14 bg-darken">
+<section class="section14 bg-darken" id="faqs">
   <header><h3>Frequently Asked Questions</h3></header>
 
   <div class="container-fluid">

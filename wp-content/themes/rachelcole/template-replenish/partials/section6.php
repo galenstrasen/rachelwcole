@@ -1,4 +1,4 @@
-<section class="section6 bg-img">
+<section class="section6 bg-img" id="details">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1">

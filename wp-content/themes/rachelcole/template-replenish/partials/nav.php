@@ -1,5 +1,5 @@
 <!--  Add navbar-fixed-top on scroll to make nav sticky-->
-<nav class="replinish-nav navbar navbar-default navbar-color" id="menu" data-spy="affix" data-offset-top="600" data-offset-bottom="65">
+<nav class="replinish-nav js-nav navbar navbar-default bg-darken">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#center-nav">
@@ -8,22 +8,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_logo-nav.png" class="nav-logo" alt="Replenish"></a>
+      <a class="navbar-brand js-scroll-to" href="#top"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_logo-nav.png" class="nav-logo" alt="Replenish"></a>
     </div>
 
     <div class="collapse navbar-collapse" id="center-nav">
       <ul class="nav navbar-nav page-nav">
-        <li><a href="#theprogram">THE RETREAT</a></li>
+        <li><a class="js-scroll-to" href="#retreat">THE RETREAT</a></li>
 
-        <li><a href="#Schedule">SCHEDULE</a></li>
-        <li><a href="#incl">FEES &AMP; ACCOMODATIONS</a></li>
+        <li><a class="js-scroll-to" href="#schedule">SCHEDULE</a></li>
+        <li><a class="js-scroll-to" href="#details">FEES &AMP; ACCOMODATIONS</a></li>
 
 
-        <li><a href="#faqsection">FAQs</a></li>
+        <li><a class="js-scroll-to" href="#faqs">FAQs</a></li>
       </ul>
 
         <ul class="nav navbar-nav navbar-right nav-apply">
-        <li><a class="btn" href="#signup-box-popup">RESERVE</a></li>
+        <li><a class="btn" href="#">RESERVE</a></li>
 
         </ul>
     </div><!-- /.navbar-collapse -->
