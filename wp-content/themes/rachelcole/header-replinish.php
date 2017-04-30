@@ -15,37 +15,20 @@
 
   <?php //wp_head(); ?>
 
+  <!-- SLICK SLIDER -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/feast_styles.css" media="all">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/replinish.css" media="all">
-    <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.js"></script>
 
 
-    <!-- SLICK SLIDER -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-
-    var j = jQuery.noConflict();
 
 
-    $('.js-testimonial-slider').slick({
-      dots: true,
-      arrows: true,
-      autoplay: true,
-
-      prevArrow: '<button type="button" class="slick-arrow slick-prev"></button>',
-      nextArrow: '<button type="button" class="slick-arrow slick-next"></button>'
-    });
 
 
-  });
-</script>
 
 
 
 
 </head>
-<body class="home page page-id-269 page-template page-template-template_feast_new-php" id="replinish">
+<body <?php body_class(); ?> id="replinish">
