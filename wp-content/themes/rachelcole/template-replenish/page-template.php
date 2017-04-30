@@ -9,7 +9,15 @@ get_header('replenish'); ?>
 
 
 <header>
-
+  <nav class="return-nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+        <a class="sol return-link" href="http://rachelwcole.com"> <h5>Return to rachelwcole.com</h5></a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <?php
 
   get_template_part('/template-replenish/partials/hero');

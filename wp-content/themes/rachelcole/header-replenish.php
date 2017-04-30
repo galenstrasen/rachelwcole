@@ -10,6 +10,8 @@
   <!-- TYPEKIT -->
   <script src="//use.typekit.net/lug2lpk.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <!-- FONT AWESOME -->
+  <script src="https://use.fontawesome.com/181b9ae92a.js"></script>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 

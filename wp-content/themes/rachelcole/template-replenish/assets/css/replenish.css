@@ -151,9 +151,58 @@ and (max-width: 991px) {
   }
 }
 
+#replenish .return-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: url('../img/header-bg2.png') repeat;
+}
+#replenish .return-link {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+#replenish .return-link:hover {
+  text-decoration: none;
+}
+
+#replenish .return-link h5 {
+  padding-left: 30px;
+  line-height: 52px;
+  font-size: 10px;
+  font-weight: normal;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#replenish .return-link h5::before {
+  content:'';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: -1px;
+  background: url('../img/icon_arrow.png') no-repeat left center;
+  background-size: contain;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all .3s ease-in-out;
+}
+
+#replenish .return-link:hover h5::before {
+  left: -2px;
+}
+
+
+
+
 /* HERO */
 .replenish-hero {
-  height: 633px;
+  height: 750px;
+  max-height: 80vh;
   background-image: url(../img/image_hero.jpg);
   background-position: bottom center;
   background-size: cover;
@@ -833,10 +882,18 @@ and (max-width: 991px) {
 }
 /* FOOTER */
 #replenish .footer {
+  position: relative;
   background-image: url('../img/image_background-6.jpg');
   background-position: center;
   text-align: center;
   padding: 120px 0;
+}
+
+#replenish .footer .return-nav {
+  top: auto;
+  bottom: 0;
+  text-align: left;
+  background: #8f9284;
 }
 
 #replenish .footer .lead {
@@ -853,4 +910,20 @@ and (max-width: 991px) {
 
 #replenish .footer .logo {
   max-width: 165px;
+}
+
+
+#replenish .social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+#replenish .social li {
+  line-height: 52px;
+
+  padding: 0 15px;
 }
