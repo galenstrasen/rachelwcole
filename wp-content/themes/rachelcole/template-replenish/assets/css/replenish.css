@@ -198,9 +198,38 @@ and (max-width: 991px) {
 }
 
 /* NAVBAR */
+@-webkit-keyframes nav-slide {
+  from {
+    top: -67px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes nav-slide {
+  from {
+    top: -67px;
+  }
+  to {
+    top: 0;
+  }
+}
 #replenish .navbar {
   margin-bottom: 0;
   border: none;
+  width: 100%;
+}
+
+#replenish .navbar.fix-me {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  animation-name: nav-slide;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #replenish .navbar-header {
@@ -253,6 +282,8 @@ and (max-width: 991px) {
   margin-top: 14px;
   margin-bottom: 14px;
 }
+
+
 
 #replenish .section1,
 #replenish .section2,
