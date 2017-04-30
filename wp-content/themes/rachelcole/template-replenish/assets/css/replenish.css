@@ -152,7 +152,7 @@ and (max-width: 991px) {
 }
 
 /* HERO */
-.replinish-hero {
+.replenish-hero {
   height: 633px;
   background-image: url(../img/image_hero.jpg);
   background-position: bottom center;
@@ -160,26 +160,26 @@ and (max-width: 991px) {
   display: flex;
 }
 
-.replinish-hero .welcome {
+.replenish-hero .welcome {
   margin: auto;
   text-align: center;
 }
-.replinish-hero .logo {
+.replenish-hero .logo {
   max-height: 100px;
   margin-bottom: 40px;
 }
 
-.replinish-hero .welcome h2,
-.replinish-hero .welcome p {
+.replenish-hero .welcome h2,
+.replenish-hero .welcome p {
   color: #F5F2EF;
 }
 
-.replinish-hero .welcome h2 {
+.replenish-hero .welcome h2 {
   font: normal 32px/40px "adobe-garamond-pro",serif;
   margin-bottom: 20px;
 }
 
-#replenish .replinish-hero .welcome p {
+#replenish .replenish-hero .welcome p {
   font-style: italic;
   position: relative;
   display: inline-block;
@@ -187,7 +187,7 @@ and (max-width: 991px) {
   padding-bottom: 25px;
 }
 
-.replinish-hero .welcome p:after {
+.replenish-hero .welcome p:after {
   content:'';
   position: absolute;
   width: 62%;
@@ -232,7 +232,7 @@ and (max-width: 991px) {
   padding-top: 0;
 }
 
-.replinish-nav {
+.replenish-nav {
   background-color: #ECE1D9;
 }
 

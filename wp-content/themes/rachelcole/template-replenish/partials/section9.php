@@ -16,11 +16,11 @@
 
       <div class="col-xs-6">
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_9.jpg" class="img-responsive" alt="Replinish - Private Canyon Casita">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_9.jpg" class="img-responsive" alt="Replinish - Private Canyon Casita">
 
         </figure>
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_10.jpg" class="img-responsive" alt="Replinish - Private Canyon Casita">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_10.jpg" class="img-responsive" alt="Replinish - Private Canyon Casita">
 
         </figure>
       </div>

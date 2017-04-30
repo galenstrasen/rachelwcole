@@ -24,11 +24,11 @@
 
       <div class="col-xs-6">
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_5.jpg" class="img-responsive" alt="Replinish - Room One / Room Two">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_5.jpg" class="img-responsive" alt="Replinish - Room One / Room Two">
           <figcaption>Room One / Room Two</figcaption>
         </figure>
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_6.jpg" class="img-responsive" alt="Replinish - Room Three">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_6.jpg" class="img-responsive" alt="Replinish - Room Three">
           <figcaption>Room Three</figcaption>
         </figure>
       </div>

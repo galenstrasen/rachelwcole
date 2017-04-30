@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_logo-nav.png" class="nav-logo" alt="Replinish"></a>
+      <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_logo-nav.png" class="nav-logo" alt="Replenish"></a>
     </div>
 
     <div class="collapse navbar-collapse" id="center-nav">

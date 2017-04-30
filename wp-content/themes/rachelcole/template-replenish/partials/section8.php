@@ -3,10 +3,10 @@
     <div class="row">
       <div class="col-xs-6">
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_7.jpg" class="img-responsive" alt="Replinish - Casa Espero Guest House Room">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_7.jpg" class="img-responsive" alt="Replinish - Casa Espero Guest House Room">
         </figure>
         <figure class="room">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_8.jpg" class="img-responsive" alt="Replinish - Casa Espero Guest House Room">
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_8.jpg" class="img-responsive" alt="Replinish - Casa Espero Guest House Room">
         </figure>
       </div>
 

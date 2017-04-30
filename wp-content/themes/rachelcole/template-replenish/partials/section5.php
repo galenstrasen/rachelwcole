@@ -65,7 +65,7 @@
 
         </div>
         <div class="col-xs-6">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_3.png" class="top-margin img-responsive" alt="How Replinish Came to Be" />
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_3.png" class="top-margin img-responsive" alt="How Replinish Came to Be" />
         </div>
       </div>
     </div><!-- /container -->
@@ -74,7 +74,7 @@
     <div class="container-fluid">
       <div class="row">
       <div class="col-xs-6">
-          <img src="<?php bloginfo('template_url')?>/template-replinish/assets/img/image_4.png" class="img-responsive" alt="" />
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_4.png" class="img-responsive" alt="" />
         </div>
         <div class="col-xs-6">
 <h4 class="top-margin">Free time</h4>
