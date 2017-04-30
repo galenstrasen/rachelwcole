@@ -18,8 +18,8 @@
   <!-- SLICK SLIDER -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/feast_styles.css" media="all">
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/replinish.css" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replenish/assets/css/feast_styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replenish/assets/css/replenish.css" media="all">
 
 
 
@@ -31,4 +31,4 @@
 
 
 </head>
-<body <?php body_class(); ?> id="replinish">
+<body <?php body_class(); ?> id="replenish">
