@@ -16,7 +16,7 @@
   <?php //wp_head(); ?>
 
 
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/new_feast.css" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/feast_styles.css" media="all">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/template-replinish/assets/css/replinish.css" media="all">
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url')?>/template-replinish/assets/temp-files/main.js"></script>
