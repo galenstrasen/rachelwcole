@@ -1,4 +1,4 @@
-<section class="section10">
+<section class="section10" id="pricing-table">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12">

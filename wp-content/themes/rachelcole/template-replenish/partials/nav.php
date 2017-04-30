@@ -13,17 +13,14 @@
 
     <div class="collapse navbar-collapse" id="center-nav">
       <ul class="nav navbar-nav page-nav">
-        <li><a class="js-scroll-to" href="#retreat">THE RETREAT</a></li>
-
-        <li><a class="js-scroll-to" href="#schedule">SCHEDULE</a></li>
-        <li><a class="js-scroll-to" href="#details">FEES &AMP; ACCOMODATIONS</a></li>
-
-
+        <li><a class="js-scroll-to" href="#retreat">The Retreat</a></li>
+        <li><a class="js-scroll-to" href="#schedule">Schedule</a></li>
+        <li><a class="js-scroll-to" href="#details">Fees &AMP; Accommodations</a></li>
         <li><a class="js-scroll-to" href="#faqs">FAQs</a></li>
       </ul>
 
         <ul class="nav navbar-nav navbar-right nav-apply">
-        <li><a class="btn" href="#">RESERVE</a></li>
+        <li><a class="btn" href="https://lq120.infusionsoft.com/app/storeFront/showCategoryPage?categoryId=19" target="_blank">Reserve</a></li>
 
         </ul>
     </div><!-- /.navbar-collapse -->

@@ -42,7 +42,7 @@
 
         <div class="foot-note">
           <p>You can choose to pay for the retreat<br/> (fee + accomodations) in full or in three installations.</p>
-          <a href="" class="btn btn-next">Pricing Info</a>
+          <a href="#pricing-table" class="js-scroll-to btn btn-next">Pricing Info</a>
         </div>
 
 

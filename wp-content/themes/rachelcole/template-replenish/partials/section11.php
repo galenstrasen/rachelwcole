@@ -13,7 +13,7 @@
       <div class="divider"></div>
       <p class="lead"><em>There are currently <strike>10</strike> 9 places available.</em></p>
       <h5>Secure your spot with a nonrefundable deposit of $400.</h5>
-      <a href="" class="btn btn-lg">Reserve</a>
+      <a href="https://lq120.infusionsoft.com/app/storeFront/showCategoryPage?categoryId=19" target="_blank" class="btn btn-lg">Reserve</a>
 
 </div>
       </div>
