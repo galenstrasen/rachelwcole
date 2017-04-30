@@ -275,6 +275,10 @@ and (max-width: 991px) {
   margin-bottom: 1rem;
 }
 
+#replinish .section2 p {
+  margin-bottom: 0;
+}
+
 /* SECTION 3 */
 #replinish .section3 {
   background-image: url(../img/image_background-1.jpg);
