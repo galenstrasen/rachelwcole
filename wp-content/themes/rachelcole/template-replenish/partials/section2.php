@@ -3,28 +3,16 @@
     <div class="row">
 
 
+      <?php if(get_field('buckets')) { ?>
         <div class="flex-wrap five-col">
+        <?php while(has_sub_field('buckets')) { ?>
           <div class="content">
-            <h3>Nature</h3>
-            <p>Peace with ourselves. With food. With life. Here are a few things you already know.</p>
-          </div><!-- /content -->
-          <div class="content">
-            <h3>Nature</h3>
-            <p>Peace with ourselves. With food. With life. Here are a few things you already know.</p>
-          </div><!-- /content -->
-          <div class="content">
-            <h3>Nature</h3>
-            <p>Peace with ourselves. With food. With life. Here are a few things you already know.</p>
-          </div><!-- /content -->
-          <div class="content">
-            <h3>Nature</h3>
-            <p>Peace with ourselves. With food. With life. Here are a few things you already know.</p>
-          </div><!-- /content -->
-          <div class="content">
-            <h3>Nature</h3>
-            <p>Peace with ourselves. With food. With life. Here are a few things you already know.</p>
-          </div><!-- /content -->
+            <h3><?php the_sub_field('header'); ?></h3>
+            <p><?php the_sub_field('text'); ?></p>
+          </div>
+        <?php } ?>
         </div><!-- /flex -->
+      <?php } ?>
 
 
     </div>
