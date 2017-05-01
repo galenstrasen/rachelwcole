@@ -6,7 +6,7 @@
           <thead>
             <tr>
               <th>
-                <span class="head">Accomodation<br/>Options</span>
+                <span class="head">Accommodation<br/>Options</span>
               </th>
               <th>
                 <span class="head">Early Bird Total</span>
