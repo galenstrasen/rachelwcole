@@ -3,8 +3,8 @@
  *  $peach: #CE8163;
 
  ** TEXT STYLES
- * lead: font: normal 32px/40px "adobe-garamond-pro",serif;
- * p: font: 18px/25px "adobe-garamond-pro",serif;
+ * lead: font: normal 32px/40px "garamond-premier-pro", "AGaramondPro-Regular",serif;
+ * p: font: 18px/25px "garamond-premier-pro", "AGaramondPro-Regular",serif;
  * header: 600 14px/18px ;
  */
 
@@ -14,7 +14,7 @@ html {
 
 #replenish {
   background-color: #F5F1EE;
-  font: 18px/25px "adobe-garamond-pro",serif;
+  font: 18px/25px "garamond-premier-pro", "AGaramondPro-Regular",serif;
   color: #363a36;
 }
 
@@ -42,12 +42,12 @@ html {
   transition: all .2s ease-in-out;
 }
 #replenish p {
-   font: 18px/26px "adobe-garamond-pro",serif;
+   font: 18px/26px "garamond-premier-pro", "AGaramondPro-Regular",serif;
   margin-bottom: 2rem;
 
 }
 #replenish .lead {
-  font: normal 32px/40px "adobe-garamond-pro",serif;
+  font: normal 32px/40px "garamond-premier-pro", "AGaramondPro-Regular",serif;
   color: #9DA18B;
 }
 
@@ -203,6 +203,7 @@ and (max-width: 991px) {
 .replenish-hero {
   height: 750px;
   max-height: 80vh;
+  background-color: #3c453d;
   background-image: url(../img/image_hero.jpg);
   background-position: bottom center;
   background-size: cover;
@@ -224,7 +225,7 @@ and (max-width: 991px) {
 }
 
 .replenish-hero .welcome h2 {
-  font: normal 32px/40px "adobe-garamond-pro",serif;
+  font: normal 32px/40px "garamond-premier-pro", "AGaramondPro-Regular",serif;
   margin-bottom: 20px;
 }
 
@@ -342,6 +343,10 @@ and (max-width: 991px) {
 }
 
 /* SECTION 1 */
+#replenish .section1 p:last-child {
+  margin-bottom: 0;
+}
+
 #replenish .section1 .lead,
 #replenish .section4 .lead {
   padding-left: 50px;
@@ -361,6 +366,7 @@ and (max-width: 991px) {
 
 /* SECTION 3 */
 #replenish .section3 {
+  background-color: #6b7469;
   background-image: url(../img/image_background-1.jpg);
   color: #F5F2EF;
   padding-top: 100px;
@@ -664,6 +670,7 @@ and (max-width: 991px) {
 
 /* SECTION 11 */
 #replenish .section11 {
+  background-color: #979480;
   background-image: url('../img/image_background-3.jpg');
   background-position: bottom center;
 }
@@ -715,6 +722,7 @@ and (max-width: 991px) {
 /* SECTION 12 */
 #replenish .section12 {
   padding-top: 150px;
+  background-color: #adb09d;
   background-image: url('../img/image_background-4.jpg');
   color: #f5f2ef;
 }
@@ -839,6 +847,20 @@ and (max-width: 991px) {
   padding: 0 2.5rem 0 3rem;
   line-height: 17px;
 }
+
+#replenish .section13 h3 {
+  margin-top: 30px;
+}
+
+#replenish .section13 p a {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#replenish .section13 p a:hover {
+  text-decoration: none;
+}
+
 /* SECTION 14 */
 #replenish .section14 header {
   text-align: center;
@@ -872,6 +894,7 @@ and (max-width: 991px) {
 }
 /* SECTION 15 */
 #replenish .section15 {
+  background-color: #c88a70;
   background-image: url('../img/image_background-5.jpg');
 }
 
@@ -883,6 +906,7 @@ and (max-width: 991px) {
 /* FOOTER */
 #replenish .footer {
   position: relative;
+  background-color: #9197a0;
   background-image: url('../img/image_background-6.jpg');
   background-position: center;
   text-align: center;
@@ -897,7 +921,7 @@ and (max-width: 991px) {
 }
 
 #replenish .footer p {
-  font: normal 32px/44px "adobe-garamond-pro",serif;
+  font: normal 32px/44px "garamond-premier-pro", "AGaramondPro-Regular",serif;
 
   color: #F5F2EF;
   margin-bottom: 0;
