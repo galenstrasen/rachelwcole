@@ -3,67 +3,40 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-6">
-          <h3>Schedule*</h3>
-          <section class="schedule">
-            <div class="row">
-              <div class="col-xs-7">
-                <h4>Friday, October 20th</h4>
-                <ul>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
+        <?php if(get_field('days')) :
+            $count = 1; ?>
+            <h3>Schedule*</h3>
+            <section class="schedule">
+            <?php while(has_sub_field('days')) :
+              if($count % 2 == 0) { $colClass =  'col-xs-7 col-xs-offset-5'; }
+              else { $colClass =  'col-xs-7'; } ?>
+              <div class="row">
+                <div class="<?php echo $colClass; ?>">
+                  <?php if(get_sub_field('header')) {
+                    echo '<h4>';
+                    the_sub_field('header');
+                    echo '</h4>';
+                  } ?>
+                  <?php if(get_sub_field('events')) {
+                    echo '<ul>';
+                    while(has_sub_field('events')) {
+                      ?>
+                      <li><?php the_sub_field('event_text'); ?></li>
+                      <?php
+                    }
+                    echo '</ul>';
+                  } ?>
+                </div><!-- /col -->
+              </div><!-- /row -->
+              <?php
+              $count++;
+            endwhile; ?>
+            </section>
+            <?php
+          endif;
+          ?>
 
-                </ul>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-xs-7 col-xs-offset-5">
-                <h4>Friday, October 20th</h4>
-                <ul>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-
-                </ul>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-xs-7">
-                <h4>Friday, October 20th</h4>
-                <ul>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-7 col-xs-offset-5">
-                <h4>Friday, October 20th</h4>
-                <ul>
-                <li>8:30 am Welcome & breakfast</li>
-                <li>10:30 am Morning activity</li>
-
-                </ul>
-              </div>
-            </div>
-          </section>
-
-        </div>
+        </div><!-- /col -->
         <div class="col-xs-6">
           <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_3.png" class="top-margin img-responsive" alt="How Replinish Came to Be" />
         </div>
@@ -73,16 +46,14 @@
   <div class="collage-section">
     <div class="container-fluid">
       <div class="row">
-      <div class="col-xs-6">
-          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_4.png" class="img-responsive" alt="" />
-        </div>
         <div class="col-xs-6">
-<h4 class="top-margin">Free time</h4>
-          <p>Peace with ourselves. With food. With life. Here are a few things you already know. Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied. You also know that you are deserving of the same kindness, trust, and compassion you show to those you care about. You know that peace cannot be faked. You don’t want to try to fake it anymore. </p>
-<h4>Group activities</h4>
-  <p>You also know that you are deserving of the same kindness, trust, and compassion you show to those you care about. You know that peace cannot be faked. You don’t want to try to fake it anymore. You are starving for the real-deal ease-in-your-own-skin exhale-inducing comes-from-the-inside peace. But somewhere along the way, you started to believe that it wasn’t safe to trust yourself. To trust your hungers. To feed yourself what you’ve been hungering for your whole life.</p>
-
-  <p><em>*Subject to change</em></p>
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_4.png" class="img-responsive" alt="" />
+        </div><!-- /col -->
+        <div class="col-xs-6">
+          <div class="right-content">
+            <?php if(get_field('right_content5')) { the_field('right_content5'); } ?>
+            <p><em>*Subject to change</em></p>
+          </div>
         </div>
 
       </div>

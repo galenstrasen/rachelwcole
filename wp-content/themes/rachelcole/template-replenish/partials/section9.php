@@ -4,13 +4,12 @@
       <div class="col-xs-6">
         <div class="intro">
           <header>
-            <h4>Private Canyon Casita</h4>
-            <p><em>Sleeps 5 people</em></p>
+            <?php if(get_field('header9')) { echo '<h4>'.get_field('header9').'</h4>'; } ?>
+            <?php if(get_field('sub_title9')) { echo '<p><em>'.get_field('sub_title9').'</em></p>'; } ?>
           </header>
-          <p>There is limited space onsite for lodging, but just a few minutes drive away I have rented a beautiful private condo with unobstructed views of the Catalina mountains. The property has three swimming pools (two are heated) and two Jacuzzis. There is limited space onsite for lodging, but just a few minutes drive away I have rented a beautiful private condo with unobstructed views of the Catalina mountains. The property has three swimming pools (two are heated) and two Jacuzzis.</p>
+          <?php if(get_field('description9')) { echo '<p>'.get_field('description9').'</p>'; } ?>
         </div><!-- /intro -->
-        <p><strong>$1200</strong> for one person<br/>
-        <strong>$600/each</strong> for two people</p>
+        <?php if(get_field('pricing_details9')) { the_field('pricing_details9'); } ?>
 
       </div><!-- /col -->
 

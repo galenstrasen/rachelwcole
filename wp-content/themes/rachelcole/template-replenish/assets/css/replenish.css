@@ -420,7 +420,7 @@ and (max-width: 991px) {
   padding-left: 0;
 }
 
-#replenish .section5 .top-margin {
+#replenish .section5 .right-content {
   margin-top: 2rem;
 }
 
@@ -896,12 +896,16 @@ and (max-width: 991px) {
   background: #8f9284;
 }
 
-#replenish .footer .lead {
-  line-height: 44px;
+#replenish .footer p {
+  font: normal 32px/44px "adobe-garamond-pro",serif;
+
   color: #F5F2EF;
-  margin-bottom: 130px;
+  margin-bottom: 0;
 }
 
+#replenish .footer .btn {
+  margin-top: 130px;
+}
 #replenish .footer hr {
   margin-top: 120px;
   margin-bottom: 40px;

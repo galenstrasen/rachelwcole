@@ -20,41 +20,28 @@
             </tr>
           </thead>
 
-          <tbody>
-            <tr>
-              <td>
-                <span class="head">Nearby Condo</span>
-                <em>Twin bed in a shared room, private bathroom</em>
-              </td>
-              <td>$1150</td>
-              <td>$1350</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="head">Nearby Condo</span>
-                <em>Twin bed in a shared room, private bathroom</em>
-              </td>
-              <td>$1150</td>
-              <td>$1350</td>
-            </tr>
-            <tr>
-              <td>
-                <span class="head">Nearby Condo</span>
-                <em>Twin bed in a shared room, private bathroom</em>
-              </td>
-              <td>$1150</td>
-              <td>$1350</td>
-            </tr>
-          </tbody>
+
+          <?php if(get_field('pricing_items')) : ?>
+            <tbody>
+            <?php while(has_sub_field('pricing_items')) : ?>
+              <tr>
+                <td>
+                <?php if(get_sub_field('name')) { echo '<span class="head">'. get_sub_field('name'). '</span>'; } ?>
+                <?php if(get_sub_field('detail')) { echo '<em>'. get_sub_field('detail'). '</em>'; } ?>
+                </td>
+                <td><?php if(get_sub_field('early_bird_total')) { the_sub_field('early_bird_total'); } ?></td>
+                <td><?php if(get_sub_field('standard_total')) { the_sub_field('standard_total'); } ?></td>
+              </tr>
+            <?php endwhile; ?>
+            </tbody>
+          <?php endif; ?>
+
         </table>
         </div>
         </div><!-- /row -->
         <div class="row">
       <div class="col-xs-10 col-xs-offset-1">
-
-        <p>Peace with ourselves. With food. With life. Here are a few things you already know. Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-<p>Please note: Deep down you know you are are worth more than any number or size. You also know that you are deserving of the same kindness, trust, and compassion you show to those you care about.</p>
-
+        <?php if(get_field('bottom_content10')) { the_field('bottom_content10'); } ?>
       </div>
     </div>
   </div><!-- /container -->

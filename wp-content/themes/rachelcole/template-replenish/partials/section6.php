@@ -2,46 +2,48 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1">
-        <header><h3>Retreat Fee & Accommodations</h3></header>
+        <header><h3>Retreat Fee &amp; Accommodations</h3></header>
 
         <div class="flex-wrap two-col">
           <div class="content">
             <header><h4>Retreat Fee</h4></header>
-            <p><em>(does not include accomodations)</em></p>
+            <p><em>(does not include accommodations)</em></p>
             <div class="row">
               <div class="col-xs-6">
                 <div class="price">
-                  <h4>$800</h4>
-                  <p><em>Early bird pricing available until June 15th</em></p>
+                  <?php if(get_field('price_1')) { echo '<h4>'. get_field('price_1'). '</h4>'; } ?>
+                  <?php if(get_field('price_1_description')) { echo '<p><em>'. get_field('price_1_description'). '</em></p>'; } ?>
                 </div>
               </div><!-- /col -->
 
               <div class="col-xs-6">
                 <div class="price">
-                  <h4>$1000</h4>
-                  <p><em>June 15th or after</em></p>
+                  <?php if(get_field('price_2')) { echo '<h4>'. get_field('price_2'). '</h4>'; } ?>
+                  <?php if(get_field('price_2_description')) { echo '<p><em>'. get_field('price_2_description'). '</em></p>'; } ?>
                 </div>
               </div><!-- /col -->
             </div><!-- /row -->
 
             <div class="included">
               <p><em>Includes</em></p>
-              <ul>
-                <li>Daily group activities with Rachel and guest leaders</li>
-                <li>One 60-minute massage</li>
-                <li>All your meals (4 breakfasts, 4 lunches, 3 dinners, as well as snacks, coffee and tea.)</li>
-              </ul>
+              <?php if(get_field('included_items')) {
+                echo '<ul>';
+                while(has_sub_field('included_items')) {
+                  echo '<li>'. get_sub_field('text') .'</li>';
+                }
+                echo '</ul>';
+              } ?>
             </div>
           </div><!-- /content -->
 
           <div class="content">
             <header><h4>Accommodation Options</h4></header>
-            <p>Deep down you know you are are worth more than any number or size. (You also know that you are deserving of the same) </p>
+            <?php if(get_field('right_content6')) { echo '<p>'.get_field('right_content6').'</p>'; } ?>
           </div><!-- /conent -->
         </div><!-- /flex-wrap -->
 
         <div class="foot-note">
-          <p>You can choose to pay for the retreat<br/> (fee + accomodations) in full or in three installations.</p>
+          <?php if(get_field('bottom_content6')) { echo '<p><em>'.get_field('bottom_content6').'</em></p>'; } ?>
           <a href="#pricing-table" class="js-scroll-to btn btn-next">Pricing Info</a>
         </div>
 

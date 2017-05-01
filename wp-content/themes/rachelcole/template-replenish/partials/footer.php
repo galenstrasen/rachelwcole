@@ -2,7 +2,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12"><?php // text_items_footer ... text ?>
-      <p class="lead">Come.<br/>Catch your breath.<br/>Stand in the sun amongst the saguaro<br/>Circle round.<br/><em>Replenish.</em></p>
+      <?php
+        if(get_field('text_items_footer')) {
+          while(has_sub_field('text_items_footer')) { ?>
+          <p><?php the_sub_field('text'); ?></p>
+          <?php
+          }
+        } ?>
+        <p><em>Replenish.</em></p>
+
       <a href="https://lq120.infusionsoft.com/app/storeFront/showCategoryPage?categoryId=19" target="_blank" class="btn btn-alt btn-lg">Reserve</a>
       <hr>
       <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_logo-footer.png" class="logo" alt="Replenish" />

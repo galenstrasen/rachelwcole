@@ -11,11 +11,8 @@
         </div>
         <div class="col-xs-6">
           <h3>About Rachel</h3>
-          <p class="lead">Peace with ourselves. With food. With life. Here are a few things you already know. Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-  <p>Deep down you know you.</p>
-  <p>You also know that you are deserving of the same kindness, trust, and compassion you show to those you care about. You know that peace cannot be faked. You don’t want to try to fake it anymore. You are starving for the real-deal ease-in-your-own-skin exhale-inducing comes-from-the-inside peace. But somewhere along the way, you started to believe that it wasn’t safe to trust yourself. To trust your hungers. To feed yourself what you’ve been hungering for your whole life.</p>
-        </div>
-
+          <?php if(get_field('content13')) { the_field('content13'); } ?>
+        </div><!-- /col -->
       </div>
     </div><!-- /container -->
 </section>

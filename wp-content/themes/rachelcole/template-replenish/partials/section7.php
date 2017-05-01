@@ -4,22 +4,12 @@
       <div class="col-xs-6">
         <div class="intro">
           <header>
-            <h4>Nearby Mountain View Condo</h4>
-            <p><em>Sleeps 5 people</em></p>
+            <?php if(get_field('header7')) { echo '<h4>'.get_field('header7').'</h4>'; } ?>
+            <?php if(get_field('sub_title7')) { echo '<p><em>'.get_field('sub_title7').'</em></p>'; } ?>
           </header>
-          <p>There is limited space onsite for lodging, but just a few minutes drive away I have rented a beautiful private condo with unobstructed views of the Catalina mountains. The property has three swimming pools (two are heated) and two Jacuzzis.</p>
+          <?php if(get_field('description7')) { echo '<p>'.get_field('description7').'</p>'; } ?>
         </div><!-- /intro -->
-        <p><strong>Room One</strong><br/>
-        <strong>$350</strong> Twin Bed A<br/>
-        <strong>$350</strong> Twin Bed B<br/>
-        <em>Private bathroom with shower</em></p>
-        <p><strong>Room One</strong><br/>
-        <strong>$350</strong> Twin Bed A<br/>
-        <strong>$350</strong> Twin Bed B<br/>
-        <em>Private bathroom with shower</em></p>
-        <p><strong>Room One</strong><br/>
-        <strong>$350</strong> Twin Bed A<br/>
-        <em>Private bathroom with shower</em></p>
+        <?php if(get_field('pricing_details7')) { the_field('pricing_details7'); } ?>
       </div><!-- /col -->
 
       <div class="col-xs-6">

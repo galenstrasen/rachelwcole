@@ -13,15 +13,12 @@
       <div class="col-xs-6">
         <div class="intro">
           <header>
-            <h4>Casa Espero Guest House Room</h4>
-            <p><em>Sleeps 2 people</em></p>
+            <?php if(get_field('header8')) { echo '<h4>'.get_field('header8').'</h4>'; } ?>
+            <?php if(get_field('sub_title8')) { echo '<p><em>'.get_field('sub_title8').'</em></p>'; } ?>
           </header>
-          <p>There is limited space onsite for lodging, but just a few minutes drive away I have rented a beautiful private condo with unobstructed views of the Catalina mountains. The property has three swimming pools (two are heated) and two Jacuzzis.</p>
+          <?php if(get_field('description8')) { echo '<p>'.get_field('description8').'</p>'; } ?>
         </div><!-- /intro -->
-        <p><strong>Room One</strong><br/>
-        <strong>$350</strong> Twin Bed A<br/>
-        <strong>$350</strong> Twin Bed B<br/>
-        <em>Private bathroom with shower</em></p>
+        <?php if(get_field('pricing_details8')) { the_field('pricing_details8'); } ?>
 
       </div><!-- /col -->
     </div>

@@ -4,25 +4,25 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-6">
-        <h4>Question</h4>
-        <p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-
-        <h4>Deep down you know you are are worth more than any number or size.</h4>
-        <p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-
-        <h4>Question</h4>
-        <p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
+        <?php if(get_field('faqs_left')) {
+          while(has_sub_field('faqs_left')) {
+            ?>
+            <h4><?php the_sub_field('question'); ?></h4>
+            <p><?php the_sub_field('answer'); ?></p>
+            <?php
+          }
+        } ?>
       </div>
 
       <div class="col-xs-6">
-        <h4>Question</h4>
-        <p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-
-        <h4>Deep down you know you are are worth more than any number or size.</h4>
-        <p>Peace does not, will not, <a href="">gstrasen@gmail.com</a> plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
-
-        <h4>Question</h4>
-        <p>Peace does not, will not, come by way of the latest detox plan on the magazine cover. Or by fitting back into your favorite college jeans. Or by continuing on a path of hungers denied.</p>
+        <?php if(get_field('faqs_right')) {
+          while(has_sub_field('faqs_right')) {
+            ?>
+            <h4><?php the_sub_field('question'); ?></h4>
+            <p><?php the_sub_field('answer'); ?></p>
+            <?php
+          }
+        } ?>
       </div>
     </div>
 
