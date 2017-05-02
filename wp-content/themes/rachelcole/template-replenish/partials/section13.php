@@ -3,9 +3,9 @@
       <div class="row">
         <div class="col-xs-6">
           <figure>
-          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_11.png" class="img-responsive" alt="Rachel and her mom in Esperero Canyon in 1984" />
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_11.jpg" class="img-responsive" alt="Rachel and her mom in Esperero Canyon in 1984" />
           <figcaption>
-          That's me and my mom, in Esperoro Canyon in about 1984. It's always been my happy place.
+          That's me and my mom, in Esperoro Canyon in about 1984.<br/> It's always been my happy place.
           </figcaption>
           </figure>
         </div>

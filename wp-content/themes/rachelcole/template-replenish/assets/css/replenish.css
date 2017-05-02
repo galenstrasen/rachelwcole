@@ -51,6 +51,20 @@ html {
   color: #9DA18B;
 }
 
+#replenish strike {
+  text-decoration: none;
+  position: relative;
+}
+
+#replenish strike::before {
+  content: '';
+  width: 110%;
+  background: #363a36;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
 /** BUTTONS */
 #replenish .btn {
   background-color: #CE8163;
@@ -170,7 +184,7 @@ and (max-width: 991px) {
 }
 
 #replenish .return-link h5 {
-  padding-left: 30px;
+  padding-left: 25px;
   line-height: 52px;
   font-size: 10px;
   font-weight: normal;
@@ -248,7 +262,7 @@ and (max-width: 991px) {
 }
 
 /* NAVBAR */
-@-webkit-keyframes nav-slide {
+/*@-webkit-keyframes nav-slide {
   from {
     top: -67px;
   }
@@ -264,11 +278,13 @@ and (max-width: 991px) {
   to {
     top: 0;
   }
-}
+}*/
 #replenish .navbar {
   margin-bottom: 0;
   border: none;
   width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 #replenish .navbar.fix-me {
@@ -322,11 +338,11 @@ and (max-width: 991px) {
   color: #363a36!important;
 }
 
-#replenish .page-nav a.active,
+/*#replenish .page-nav a.active,
 #replenish .page-nav a:hover{
   border-bottom: solid #363a36 1px;
   padding-bottom: 2px;
-}
+}*/
 
 #replenish .nav-apply .btn {
   margin-top: 14px;
@@ -343,6 +359,9 @@ and (max-width: 991px) {
 }
 
 /* SECTION 1 */
+#replenish .section1 .container-fluid{
+  max-width: 770px;
+}
 #replenish .section1 p:last-child {
   margin-bottom: 0;
 }
@@ -853,8 +872,20 @@ and (max-width: 991px) {
 }
 
 #replenish .section13 p a {
-  text-decoration: underline;
+  text-decoration: none;
+
   font-style: italic;
+  position: relative;
+}
+
+#replenish .section13 p a::before {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: #9DA18B;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
 }
 
 #replenish .section13 p a:hover {
@@ -897,6 +928,9 @@ and (max-width: 991px) {
   background-color: #c88a70;
   background-image: url('../img/image_background-5.jpg');
 }
+#replenish .section15 .container-fluid{
+  max-width: 750px;
+}
 
 #replenish .section15 p {
   font-size: 26px;
@@ -910,9 +944,13 @@ and (max-width: 991px) {
   background-image: url('../img/image_background-6.jpg');
   background-position: center;
   text-align: center;
-  padding: 120px 0;
+  padding: 120px 0 20px;
 }
-
+#replenish .footer .return-link h5 {
+  color: #b8b0ac;
+  line-height: 25px;
+  text-align: left;
+}
 #replenish .footer .return-nav {
   top: auto;
   bottom: 0;
