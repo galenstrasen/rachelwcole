@@ -1,7 +1,11 @@
 <section class="section13 collage">
   <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-6">
+      <div class="col-sm-6 col-sm-push-6 col-xs-12">
+          <h3>About Rachel</h3>
+          <?php if(get_field('content13')) { the_field('content13'); } ?>
+        </div><!-- /col -->
+        <div class="col-sm-6 col-sm-pull-6 col-xs-12">
           <figure>
           <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_11.jpg" class="img-responsive" alt="Rachel and her mom in Esperero Canyon in 1984" />
           <figcaption>
@@ -9,10 +13,7 @@
           </figcaption>
           </figure>
         </div>
-        <div class="col-xs-6">
-          <h3>About Rachel</h3>
-          <?php if(get_field('content13')) { the_field('content13'); } ?>
-        </div><!-- /col -->
+
       </div>
     </div><!-- /container -->
 </section>

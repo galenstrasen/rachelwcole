@@ -3,7 +3,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-xs-12">
         <?php if(get_field('faqs_left')) {
           while(has_sub_field('faqs_left')) {
             ?>
@@ -14,7 +14,7 @@
         } ?>
       </div>
 
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-xs-12">
         <?php if(get_field('faqs_right')) {
           while(has_sub_field('faqs_right')) {
             ?>
