@@ -283,6 +283,8 @@ and (max-width: 991px) {
   margin-bottom: 0;
   border: none;
   width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 #replenish .navbar.fix-me {
