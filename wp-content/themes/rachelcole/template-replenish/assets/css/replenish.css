@@ -360,7 +360,7 @@ and (max-width: 991px) {
 
 /* SECTION 1 */
 #replenish .section1 .container-fluid{
-  max-width: 770px;
+  max-width: 745px;
 }
 #replenish .section1 p:last-child {
   margin-bottom: 0;
