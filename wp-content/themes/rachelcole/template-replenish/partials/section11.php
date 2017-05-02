@@ -1,7 +1,7 @@
 <section class="section11 bg-img">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-10 col-xs-offset-1">
+      <div class="col-sm-10 col-sm-offset-1 col-xs-12">
         <div class="content">
           <?php if(get_field('content11')) { the_field('content11'); } ?>
           <div class="divider"></div>

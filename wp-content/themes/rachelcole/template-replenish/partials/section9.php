@@ -1,7 +1,7 @@
 <section class="section9 bg-darken room-info">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-xs-12">
         <div class="intro">
           <header>
             <?php if(get_field('header9')) { echo '<h4>'.get_field('header9').'</h4>'; } ?>
@@ -13,7 +13,7 @@
 
       </div><!-- /col -->
 
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-xs-12">
         <figure class="room">
           <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_9.jpg" class="img-responsive" alt="Replinish - Private Canyon Casita">
 

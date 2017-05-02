@@ -51,6 +51,17 @@ html {
   color: #9DA18B;
 }
 
+@media only screen
+and (max-width: 767px) {
+  #replenish p {
+    margin-bottom: 1.5rem;
+  }
+  #replenish .lead {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
 #replenish strike {
   text-decoration: none;
   position: relative;
@@ -107,6 +118,7 @@ html {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+
 
 #replenish .container-fluid {
   max-width: 960px;
@@ -192,6 +204,13 @@ and (max-width: 991px) {
   position: relative;
 }
 
+@media only screen
+and (max-width: 991px) {
+  #replenish .return-link h5 {
+    margin-left: 15px;
+  }
+}
+
 #replenish .return-link h5::before {
   content:'';
   width: 15px;
@@ -233,6 +252,15 @@ and (max-width: 991px) {
   margin-bottom: 40px;
 }
 
+@media only screen
+and (max-width: 767px) {
+  .replenish-hero .logo {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+}
 .replenish-hero .welcome h2,
 .replenish-hero .welcome p {
   color: #F5F2EF;
@@ -241,6 +269,14 @@ and (max-width: 991px) {
 .replenish-hero .welcome h2 {
   font: normal 32px/40px "garamond-premier-pro", "AGaramondPro-Regular",serif;
   margin-bottom: 20px;
+}
+
+@media only screen
+and (max-width: 767px) {
+  .replenish-hero .welcome h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
 }
 
 #replenish .replenish-hero .welcome p {
@@ -419,6 +455,34 @@ and (max-width: 991px) {
   margin-bottom: 75px;
 }
 
+@media only screen
+and (max-width: 767px) {
+  #replenish .collage-section img {
+    width: 270px;
+  }
+  #replenish .section4 .collage-section {
+    text-align: center;
+  }
+  #replenish .section5 .collage-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #replenish .collage-section {
+    margin-bottom: 0;
+  }
+  #replenish .collage-section .collage-img-2 {
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen
+and (max-width: 600px) {
+  #replenish .section5 .collage-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 /* SECTION 5 */
 /*#replenish .section5 .container-fluid {
   max-width: 960px;
@@ -546,6 +610,26 @@ and (max-width: 991px) {
   font-style: italic;
 }
 
+@media only screen
+and (max-width: 767px) {
+  #replenish .section6 .flex-wrap::after {
+    width: 0;
+    background: transparent;
+  }
+  #replenish .section6 .flex-wrap .content:first-child {
+    padding-right: 0;
+  }
+  #replenish .section6 .flex-wrap .content:last-child {
+    padding-left: 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+  #replenish .section6 .flex-wrap.two-col .content {
+    flex-grow: 1;
+    flex-basis: 100%;
+  }
+}
+
 #replenish .btn.btn-next {
   background-color: transparent;
   padding: 0 0 23px;
@@ -647,6 +731,18 @@ and (max-width: 991px) {
   font-size: 16px;
 }
 
+@media only screen
+and (max-width: 991px) {
+  #replenish .table td {
+    padding: 12px;
+  }
+  #replenish .table th {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
 #replenish .table th:first-child,
 #replenish .table td:first-child {
   background-color: transparent;
@@ -681,6 +777,14 @@ and (max-width: 991px) {
   font-weight: 300;
 }
 
+@media only screen
+and (max-width: 991px) {
+  #replenish .table .sub {
+    letter-spacing: 1px;
+    font-size: 11px;
+  }
+}
+
 #replenish .table em {
   font-size: 14px;
   margin-top: 6px;
@@ -699,6 +803,12 @@ and (max-width: 991px) {
   text-align: center;
 }
 
+@media only screen
+and (max-width: 991px) {
+  #replenish .section11 .content {
+    padding: 30px;
+  }
+}
 #replenish .section11 h4 {
   margin-bottom: 3px;
 }
@@ -779,6 +889,22 @@ and (max-width: 991px) {
 
 #replenish .slick-slider {
   padding: 0 120px;
+}
+
+@media only screen
+and (max-width: 991px) {
+  #replenish .slick-slider {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media only screen
+and (max-width: 767px) {
+  #replenish .slick-slider {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 #replenish .slick-slider .slick-arrow {
@@ -892,6 +1018,12 @@ and (max-width: 991px) {
   text-decoration: none;
 }
 
+@media only screen
+and (max-width: 767px) {
+  #replenish .section13 img {
+    width: 270px;
+  }
+}
 /* SECTION 14 */
 #replenish .section14 header {
   text-align: center;
@@ -937,6 +1069,14 @@ and (max-width: 991px) {
   line-height: 32px;
   color: #F5F2EF;
 }
+
+@media only screen
+and (max-width: 767px) {
+  #replenish .section15 p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
 /* FOOTER */
 #replenish .footer {
   position: relative;
@@ -944,25 +1084,28 @@ and (max-width: 991px) {
   background-image: url('../img/image_background-6.jpg');
   background-position: center;
   text-align: center;
-  padding: 120px 0 20px;
+  padding: 120px 0 45px;
 }
 #replenish .footer .return-link h5 {
   color: #b8b0ac;
   line-height: 25px;
   text-align: left;
 }
-#replenish .footer .return-nav {
-  top: auto;
-  bottom: 0;
-  text-align: left;
-  background: #8f9284;
-}
+
 
 #replenish .footer p {
   font: normal 32px/44px "garamond-premier-pro", "AGaramondPro-Regular",serif;
 
   color: #F5F2EF;
   margin-bottom: 0;
+}
+
+@media only screen
+and (max-width: 767px) {
+  #replenish .footer p {
+    font-size: 28px;
+    line-height: 38px;
+  }
 }
 
 #replenish .footer .btn {
@@ -973,7 +1116,15 @@ and (max-width: 991px) {
   margin-bottom: 40px;
   border-top: 1px solid #F5F2EF;
 }
-
+@media only screen
+and (max-width: 767px) {
+  #replenish .footer .btn {
+    margin-top: 60px;
+  }
+  #replenish .footer hr {
+    margin-top: 60px;
+  }
+}
 #replenish .footer .logo {
   max-width: 165px;
 }
@@ -988,8 +1139,24 @@ and (max-width: 991px) {
   justify-content: flex-end;
 }
 
+@media only screen
+and (max-width: 991px) {
+  #replenish .footer .return-link h5 {
+
+  text-align: center;
+  display: inline-block;
+}
+  #replenish .footer .logo {
+    margin-top: 20px;
+  }
+  #replenish .social {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
 #replenish .social li {
-  line-height: 52px;
+  line-height: 25px;
 
   padding: 0 15px;
 }
