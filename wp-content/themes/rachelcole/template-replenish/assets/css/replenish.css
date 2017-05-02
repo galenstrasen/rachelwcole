@@ -51,6 +51,20 @@ html {
   color: #9DA18B;
 }
 
+#replenish strike {
+  text-decoration: none;
+  position: relative;
+}
+
+#replenish strike::before {
+  content: '';
+  width: 110%;
+  background: #363a36;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
 /** BUTTONS */
 #replenish .btn {
   background-color: #CE8163;
@@ -853,8 +867,20 @@ and (max-width: 991px) {
 }
 
 #replenish .section13 p a {
-  text-decoration: underline;
+  text-decoration: none;
+
   font-style: italic;
+  position: relative;
+}
+
+#replenish .section13 p a::before {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: #9DA18B;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
 }
 
 #replenish .section13 p a:hover {
