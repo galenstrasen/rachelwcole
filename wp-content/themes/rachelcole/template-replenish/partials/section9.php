@@ -1,4 +1,4 @@
-<section class="section9 bg-darken room-info">
+<section class="section9 bg-sage room-info">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6 col-xs-12">

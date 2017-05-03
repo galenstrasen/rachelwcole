@@ -674,6 +674,9 @@ and (max-width: 767px) {
 }
 
 /* SECTION 7/8/9 */
+#replenish .room-info + .room-info {
+  padding-top: 0;
+}
 #replenish .section7 {
   color: #363a36;
 }
