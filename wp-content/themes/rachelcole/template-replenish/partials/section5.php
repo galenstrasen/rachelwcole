@@ -52,7 +52,6 @@
         <div class="col-sm-6 col-xs-10">
           <div class="right-content">
             <?php if(get_field('right_content5')) { the_field('right_content5'); } ?>
-            <p><em>*Subject to change</em></p>
           </div>
         </div>
 
