@@ -559,6 +559,19 @@ and (max-width: 600px) {
 #replenish .section6 .flex-wrap .content:last-child {
   padding-left: 60px;
   align-self: center;
+  position: relative;
+}
+
+#replenish .section6 .flex-wrap .content:last-child::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 400px;
+  margin-top: -1.5rem;
+  background-repeat: no-repeat;
+  background-image: url('../img/image_arrow.png');
+  background-size: contain;
 }
 #replenish .section6 .flex-wrap .content:last-child h4 {
   /* text-align: center; */
