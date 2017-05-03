@@ -31,12 +31,23 @@ $(document).ready(function(){
 
     }
   });
-  var pageNav = $('.js-nav')
-  pageNav.waypoint(function(direction) {
-    if(pageNav.hasClass('fix-me')) {
-      pageNav.removeClass('fix-me');
-    }
-    else {
+  var pageNav = $('.js-nav');
+  var topGuy = pageNav.offset().top;
+
+  function fixNav() {
+    if ( $(window).scrollTop() > topGuy) {
       pageNav.addClass('fix-me');
     }
+    else {
+      pageNav.removeClass('fix-me');
+    }
+  }
+
+
+  $(window).on('scroll', function(){
+    fixNav();
+  });
+
+  $(window).on('load', function(){
+    fixNav();
   });
