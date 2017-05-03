@@ -7,7 +7,8 @@ $(document).ready(function(){
       dots: true,
       arrows: true,
       autoplay: true,
-
+      speed: 2000,
+      fade: true,
       prevArrow: '<button type="button" class="slick-arrow slick-prev"></button>',
       nextArrow: '<button type="button" class="slick-arrow slick-next"></button>'
     });
