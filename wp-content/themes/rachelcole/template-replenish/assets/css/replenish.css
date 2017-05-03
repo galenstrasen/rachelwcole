@@ -235,12 +235,19 @@ and (max-width: 991px) {
 /* HERO */
 .replenish-hero {
   height: 750px;
-  max-height: 80vh;
+  max-height: 90vh;
   background-color: #3c453d;
-  background-image: url(../img/image_hero.jpg);
-  background-position: bottom center;
+  //background-image: url(../img/image_hero.jpg);
+  background-position: center center;
   background-size: cover;
   display: flex;
+}
+
+@media only screen
+and (max-width: 991px) {
+  .replenish-hero {
+    max-height: 80vh;
+  }
 }
 
 .replenish-hero .welcome {
