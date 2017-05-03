@@ -237,10 +237,39 @@ and (max-width: 991px) {
   height: 750px;
   max-height: 90vh;
   background-color: #3c453d;
-  //background-image: url(../img/image_hero.jpg);
+  position: relative;
+  overflow:hidden;
+}
+
+.replenish-hero .placeholder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: blur(20px); /* Safari 6.0 - 9.0 */
+  filter: blur(20px);
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.replenish-hero .hero-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/image_hero.jpg);
   background-position: center center;
   background-size: cover;
   display: flex;
+  height: 100%;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 4s;
 }
 
 @media only screen
