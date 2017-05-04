@@ -38,7 +38,7 @@
 
         </div><!-- /col -->
         <div class="col-md-6 col-sm-5 col-xs-6">
-          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_3.jpg" class="top-margin img-responsive" alt="How Replinish Came to Be" />
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image-collage_3.jpg" class="top-margin img-responsive" alt="How Replinish Came to Be" />
         </div>
       </div>
     </div><!-- /container -->
@@ -47,7 +47,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-offset-0 col-xs-offset-2 col-xs-6">
-          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_4.jpg" class="img-responsive" alt="" />
+          <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image-collage_4.jpg" class="left-lg-img img-responsive" alt="Group Activities" />
         </div><!-- /col -->
         <div class="col-sm-6 col-xs-10">
           <div class="right-content">
