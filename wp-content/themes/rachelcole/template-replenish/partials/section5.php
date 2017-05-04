@@ -2,11 +2,14 @@
   <div class="collage-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-sm-7 col-xs-6">
+        <div class="col-sm-6 col-xs-12">
+
         <?php if(get_field('days')) :
             $count = 1; ?>
             <h3>Schedule*</h3>
+
             <section class="schedule">
+
             <?php while(has_sub_field('days')) :
               if($count % 2 == 0) { $colClass =  'col-sm-7 col-sm-offset-5 col-xs-12'; }
               else { $colClass =  'col-sm-7 col-xs-12'; } ?>
@@ -31,13 +34,14 @@
               <?php
               $count++;
             endwhile; ?>
+            <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image-collage_3.jpg" class="mobile-img sched visible-xs img-responsive" alt="How Replinish Came to Be" />
             </section>
             <?php
           endif;
           ?>
 
         </div><!-- /col -->
-        <div class="col-md-6 col-sm-5 col-xs-6">
+        <div class="col-sm-6 hidden-xs">
           <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image-collage_3.jpg" class="top-margin img-responsive" alt="How Replinish Came to Be" />
         </div>
       </div>
@@ -46,7 +50,7 @@
   <div class="collage-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-offset-0 col-xs-offset-2 col-xs-6">
+        <div class="col-sm-offset-0 col-sm-6 col-xs-offset-5 col-xs-7 special-col">
           <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image-collage_4.jpg" class="left-lg-img img-responsive" alt="Group Activities" />
         </div><!-- /col -->
         <div class="col-sm-6 col-xs-10">
