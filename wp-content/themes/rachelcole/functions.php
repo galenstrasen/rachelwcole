@@ -28,9 +28,9 @@ if ( function_exists('register_sidebar') )
         'before_title' => '<h2 class="widgettitle">',
         'after_title' => '</h2>',
     ));
-	
-	
-	
+
+
+
 // Replaces the excerpt "more" text by a link
 function new_excerpt_more($more) {
        global $post;
@@ -167,9 +167,9 @@ function ss_init_script() {
 	   wp_enqueue_script('superfish', get_template_directory_uri().'/js/superfish.js', array('jquery'), '1.0.0');
 	   wp_enqueue_script('magnificjs', get_template_directory_uri().'/js/magnific-popup/jquery.magnific-popup.js', array('jquery'), '1.0.0');
 	   wp_enqueue_script('mainjs', get_template_directory_uri().'/js/main.js', array('jquery'), '1.0.0');
-	   
+
 	   wp_enqueue_style( 'normalizeStyle', get_template_directory_uri() . '/css/normalize.css' );
-	   wp_enqueue_style( 'mainStyle', get_stylesheet_uri() );
+	   wp_enqueue_style( 'mainStyle', get_stylesheet_uri(), array(), time() );
 	   wp_enqueue_style( 'fontawesomeStyle', get_template_directory_uri() . '/css/font-awesome.css' );
 	   wp_enqueue_style( 'superfishStyle', get_template_directory_uri() . '/css/superfish.css' );
 	   wp_enqueue_style( 'magnificStyle', get_template_directory_uri() . '/js/magnific-popup/magnific-popup.css' );
@@ -178,15 +178,15 @@ function ss_init_script() {
 }
 add_action('init', 'ss_init_script');
 
-remove_action('wp_head', 'rel_canonical'); 
-remove_action('wp_head', 'rsd_link'); 
-remove_action('wp_head', 'wp_generator'); 
-remove_action('wp_head', 'feed_links', 2); 
-remove_action('wp_head', 'index_rel_link'); 
-remove_action('wp_head', 'wlwmanifest_link'); 
-remove_action('wp_head', 'feed_links_extra', 3); 
-remove_action('wp_head', 'start_post_rel_link', 10, 0); 
-remove_action('wp_head', 'parent_post_rel_link', 10, 0); 
-remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0); 
+remove_action('wp_head', 'rel_canonical');
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head', 'wp_generator');
+remove_action('wp_head', 'feed_links', 2);
+remove_action('wp_head', 'index_rel_link');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head', 'feed_links_extra', 3);
+remove_action('wp_head', 'start_post_rel_link', 10, 0);
+remove_action('wp_head', 'parent_post_rel_link', 10, 0);
+remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 ?>
