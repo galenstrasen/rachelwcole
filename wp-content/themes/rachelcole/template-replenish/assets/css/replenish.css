@@ -685,8 +685,15 @@ and (max-width: 479px) {
 
 @media only screen
 and (max-width: 767px) {
+
+  #replenish .section5 .mobile-img.sched {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 50%;
+}
   #replenish .collage-section img {
-    width: 270px;
+    /*width: 270px;*/
   }
   #replenish .section4 .collage-section {
     text-align: center;
@@ -709,6 +716,11 @@ and (max-width: 599px) {
     padding-left: 0;
     padding-right: 0;
   }
+  #replenish .section5 .mobile-img.sched {
+
+    max-width: 50%;
+
+  }
 }
 
 @media only screen
@@ -718,6 +730,11 @@ and (max-width: 479px) {
   }
   #replenish .section4 .col-xs-offset-1 {
     margin-left: 0;
+  }
+  #replenish .section5 .mobile-img.sched {
+
+    max-width: 40%;
+margin-top: -40px;
   }
 }
 
@@ -729,6 +746,24 @@ and (max-width: 479px) {
 }*/
 #replenish section.schedule {
   padding: 0;
+}
+
+@media only screen
+and (max-width: 767px) {
+  #replenish section.schedule {
+    padding-right: 50%;
+  }
+}
+
+@media only screen
+and (max-width: 479px) {
+  #replenish section.schedule {
+    padding-right: 0;
+  }
+
+  #replenish section.schedule > .row:first-child {
+    padding-right: 40%;
+  }
 }
 
 #replenish section.schedule .row {
@@ -758,6 +793,9 @@ and (max-width: 479px) {
 }
 
 
+
+@media only screen
+and (min-width: 1200px) {
 #replenish .section5 img.top-margin {
   width: 110%!important;
   max-width: 110%!important;
@@ -768,6 +806,37 @@ and (max-width: 479px) {
   max-width: 125%!important;
   margin-left: -25%;
   margin-top: -50px;
+}
+}
+
+@media only screen
+and (max-width: 767px) {
+  #replenish .section5 .right-content {
+    margin-top: 0;}
+#replenish .section5 img.left-lg-img {
+  margin-top: -150px;
+  padding-right: 75px;
+}
+}
+@media only screen
+and (max-width: 599px) {
+  #replenish .section5 img.left-lg-img {
+  margin-top: 0;
+  padding-right: 50px;
+}
+}
+@media only screen
+and (max-width: 479px) {
+  #replenish .section5 img.left-lg-img {
+  margin-top: 0;
+  padding-right: 0;
+}
+#replenish .section5 .right-content {
+    margin-top: 1rem;}
+#replenish .section5 .special-col {
+  margin-left: 20%!important;
+  width:60%!important;
+}
 }
 
 #replenish .section5 .collage-section:last-child {
@@ -1599,7 +1668,7 @@ and (max-width: 767px) {
   #replenish .section14 header {
 
   margin-bottom: 30px;
-}
+  }
 }
 
 @media only screen
