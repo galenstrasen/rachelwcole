@@ -1643,6 +1643,10 @@ and (max-width: 599px) {
   text-align: left;
 }
 
+#replenish .footer .return-link h5::before {
+  background-image: url('../img/icon_arrow-white.png');
+}
+
 
 #replenish .footer p {
   font: normal 32px/44px "garamond-premier-pro", "AGaramondPro-Regular",serif;
