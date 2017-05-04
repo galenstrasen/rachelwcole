@@ -757,6 +757,23 @@ and (max-width: 479px) {
   margin-top: 4rem;
 }
 
+
+#replenish .section5 img.top-margin {
+  width: 110%!important;
+  max-width: 110%!important;
+}
+
+#replenish .section5 img.left-lg-img {
+  width: 125%!important;
+  max-width: 125%!important;
+  margin-left: -25%;
+  margin-top: -50px;
+}
+
+#replenish .section5 .collage-section:last-child {
+  margin-bottom: 0;
+}
+
 /* SECTION 6 */
 #replenish .section6 {
   padding-top: 70px;
