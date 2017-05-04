@@ -1292,9 +1292,30 @@ and (max-width: 991px) {
 }
 
 @media only screen
+and (max-width: 767px) {
+  #replenish .section11  {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen
+and (max-width: 599px) {
+  #replenish .section11  {
+
+    padding: 70px 15px;
+  }
+}
+
+@media only screen
 and (max-width: 479px) {
+  #replenish .section11  {
+
+    padding: 60px 5px;
+  }
   #replenish .section11 .content {
-    padding: 15px;
+    padding: 25px 10px;
+
   }
 }
 #replenish .section11 h4 {
@@ -1501,6 +1522,7 @@ and (max-width: 767px) {
 #replenish .slick-slider .slick-dots li {
   margin: 0 5px;
   height: 12px;
+  width: 12px;
 }
 
 #replenish .slick-slider .slick-dots button{
@@ -1584,8 +1606,9 @@ and (max-width: 767px) {
 and (max-width: 599px) {
   #replenish .section14 header {
 
- text-align: left;
+
 padding-left: 15px;
+padding-right: 15px;
 }
 }
 
