@@ -2186,7 +2186,7 @@ max-width:100%;
 
 				background:#fcfaf9;
 				height:365px;
-				padding:70px 15% 0;
+				padding:80px 15% 0;
 				width:70%;
 				margin:70px auto 0;
 				text-align:center;
@@ -2213,16 +2213,24 @@ max-width:100%;
 
 			.main#about #section4 li .testimonial_holder .image {
 				position:absolute;
-				top:-80px;
+				top:-70px;
 				left:0;
 				text-align:center;
-				width:100%
-
+				width:100%;
+				/*background: white;
+				width: 130px;
+				height: 130px;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 50%;
+				overflow: hidden;*/
 			}
 
 			.main#about #section4 li .testimonial_holder .image img{
 				width:20%;
 				margin:auto;
+				/*width: 131px;
+				height: 131px;*/
 			}
 	.main#about #section5{
 	padding:110px 0 ;
