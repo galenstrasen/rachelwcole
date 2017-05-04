@@ -1,19 +1,19 @@
-<?php 
+<?php
 /* Template Name: About Page
 */
 
 get_header(); ?>
 
 
-<script type="text/javascript"> 
-$(document).ready(function(){ var j = jQuery.noConflict(); 
+<script type="text/javascript">
+$(document).ready(function(){ var j = jQuery.noConflict();
 
 	$(function () {
    function runIt() {
       $('#textintro').delay(2000)
 				.fadeIn(2000)
 		$('#text1').delay(5000)
-				.fadeIn(2000)  
+				.fadeIn(2000)
 				.delay(4000)
               .fadeOut(2000)
 		$('#text6').delay(6000)
@@ -29,28 +29,28 @@ $(document).ready(function(){ var j = jQuery.noConflict();
 		$('#text4').delay(29035)
 			.fadeIn(2000)
 			.delay(4000)
-			.fadeOut(2000)	
+			.fadeOut(2000)
 		$('#text5').delay(37050)
 			.fadeIn(2000)
 			.delay(4000)
-			.fadeOut(2000, runIt)				
+			.fadeOut(2000, runIt)
    }
 
    runIt();
 });
-$('.testimonial_slider').bxSlider({ 
+$('.testimonial_slider').bxSlider({
 auto: true,
 speed: 2000,
 pause: 5000,
 autoHover: true,
 mode: 'fade',
-}); 
+});
 
 		$(function() {
     var BV = new $.BigVideo({
 	container:$('#topbanner'),
 	shrinkable:true
-		
+
 	});
     BV.init();
 	if (Modernizr.touch) {
@@ -70,18 +70,18 @@ mode: 'fade',
 	});
 
 
-}); 
+});
 
 </script>
 	<?php while ( have_posts() ) : the_post(); ?>
-	
+
 		<!-- Start of main -->
 		<div id="about" class="main">
-			
+
 	<div id="topbanner">
-		
+
 		<div id="topbannertext">
-			<h2 class="serif big" id="textintro">What are you <em>truly</em> hungry for?</h2>	
+			<h2 class="serif big" id="textintro">What are you <em>truly</em> hungry for?</h2>
 
 			<div id="textslider">
 
@@ -90,15 +90,15 @@ mode: 'fade',
 			<h2 class="big"  id="text3">To have a day job<br/>that feeds your soul?</h2>
 			<h2 class="big"  id="text4">To go the table with ease<br/>and eat for pleasure (instead of points)?</h2>
 			<h2 class="big"  id="text5">To inhabit your body and<br/>savor the feeling of your own skin?</h2>
-			
+
 			</div>
-			<div id="text6"> 
+			<div id="text6">
 			<a href="<?php the_field('header_link')?>"><img src="<?php bloginfo('template_url')?>/img/icon_play.png"/></a>
 			<h2>Watch Video</h2>
-		</div>	
+		</div>
 			</div>
 				</div>
-				
+
 			<div id="section1" class="section effect-scale-up" data-effect-offset="1" data-effect-speed="1" data-effect-delay="0">
 				<div class="holder clearfix">
 					<blockquote>
@@ -114,7 +114,7 @@ mode: 'fade',
 						<?php the_field('section_1_copy');?>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div id="section2" class="section">
 				<div class="holder clearfix">
 					<blockquote>
@@ -131,15 +131,15 @@ mode: 'fade',
 						<?php the_field('section_2_footer');?>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div id="section3" class="section">
 				<div class="holder clearfix">
 					<div id="section3_intro">
 						<?php the_field('section_3_intro')?>
 					</div>
-					
+
 					<ul id="section3_list">
-					<?php 
+					<?php
 					$counter = 1;
 					while( have_rows('beliefs')):the_row();?>
 						<li>
@@ -148,17 +148,17 @@ mode: 'fade',
 								<?php the_sub_field('belief_text')?>
 							</div>
 						</li>
-					<?php 
+					<?php
 					$counter++;
 					endwhile;
 					?>
 					</ul>
-					
+
 					<div class="divider"></div>
 					<div id="section3_footer">
 						<?php the_field(section_3_footer)?>
-					</div>	
-				</div>	
+					</div>
+				</div>
 			</div>
 			<div id="section4" class="section">
 				<div class="holder clearfix">
@@ -175,7 +175,7 @@ mode: 'fade',
 						<?php endwhile?>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div id="section5" class="section">
 				<div class="holder clearfix">
 					<div class="fleft one_third">
@@ -193,14 +193,14 @@ mode: 'fade',
 							</div>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div id="section6" class="section">
 					<div id="featuredin-logos">
 					<h2 class="serif"> as featured in</h2>
 					<img src="<?php the_field('section_6_logos')?>">
 					</div>
-			<img src="<?php the_field('section_6_image')?>">		
-			</div>		
+			<img src="<?php the_field('section_6_image')?>">
+			</div>
 			<div id="section7" class="section">
 				<div class="holder clearfix">
 					<h2 class="serif">media photos</h2>
@@ -221,8 +221,8 @@ mode: 'fade',
 	$thumb = $image['sizes'][ $size ];
 	$width = $image['sizes'][ $size . '-width' ];
 	$height = $image['sizes'][ $size . '-height' ];?>
-	
-	
+
+
 		<li>
 			<a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
 				<span class="secondary">Download</span>
@@ -234,8 +234,8 @@ mode: 'fade',
 					</ul>
 					<p>Photography Credit: <a href="http://stephanierauser.com" target="_blank">Stephanie Rausser</p></a>
 				</div>
-			</div>	
-		
+			</div>
+
 		<div id="signup-box" class="section">
 			<div class="holder clearfix">
 				<p>Want to get the latest from Rachel?</p>
