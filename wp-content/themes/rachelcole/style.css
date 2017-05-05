@@ -250,10 +250,23 @@ margin-left:10px;
 				 letter-spacing: 1px;
 				 text-transform: uppercase;
 				 color: #3B4C62;
-				 background: url('img/icon_arrow-signup.png') no-repeat right center;
-				 background-size:18px 18px;
 				 padding-right: 25px;
 				 margin-top: 8px;
+				 position: relative;
+			}
+
+			#header .header1 .signup-link a::after {
+				content: '';
+				width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: -1px;
+    background: url('img/icons_navigation/icon_arrow-site-nav.png') no-repeat left center;
+    background-size: contain;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
 			}
 
 			#header .header1 .signup-link a:hover{
@@ -275,6 +288,10 @@ margin-left:10px;
 			#header .header1 .socials a:hover{
 				opacity:.8
 			}
+.socials .fa {
+	font-size: 14px;
+}
+
 
 			#header .header1 .socials a.facebook{
 				width: 7px;
@@ -3846,9 +3863,12 @@ max-width:100%;
 		align-items: center;
 		height: 100%;
 	}
-
+#footer .socials .fa {
+	font-size: 15px;
+}
 	#footer .footer-right .socials a{
 		padding: 0 9px;
+		color:#c6bbba;
 	}
 
 	#footer .footer-right .socials a:hover{

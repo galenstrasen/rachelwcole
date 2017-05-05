@@ -23,10 +23,10 @@
       <img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/image_logo-footer.png" class="logo" alt="Replenish" /></div>
       <div class="col-md-4 col-xs-12">
         <ul class="social">
-            <li><a href="https://www.facebook.com/feedyourlife" target="_blank"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/icon_social-facebook.png" alt=""></a></li>
-            <li><a href="https://twitter.com/rachelwcole" target="_blank"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/icon_social-twitter.png" alt=""></a></li>
-            <li><a href="http://pinterest.com/rachelwcole/" target="_blank"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/icon_social-pinterest.png" alt=""></a></li>
-            <li><a href="http://instagram.com/rachelwcole" target="_blank"><img src="<?php bloginfo('template_url')?>/template-replenish/assets/img/icon_social-instagram.png" alt=""></a></li>
+            <li><a href="https://www.facebook.com/feedyourlife" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/rachelwcole" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://pinterest.com/rachelwcole/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="http://instagram.com/rachelwcole" target="_blank"><i class="fa fa-instagram"></i></a></li>
           </ul>
       </div>
 
