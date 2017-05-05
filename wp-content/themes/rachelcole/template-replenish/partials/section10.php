@@ -76,7 +76,7 @@
               </tr>
             <?php endwhile; ?>
             </tbody>
-            </table>
+
           <?php endif; ?>
 
         </table>

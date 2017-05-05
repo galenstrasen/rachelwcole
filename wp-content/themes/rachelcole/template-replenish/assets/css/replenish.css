@@ -136,19 +136,20 @@ and (max-width: 479px) {
   }
 }
 
-#replenish strike {
+#replenish .strike {
   text-decoration: none;
   position: relative;
+  display: inline-block;
 }
 
-#replenish strike::before {
+#replenish .strike::before {
   content: '';
   width: 110%;
   background: #363a36;
   height: 2px;
   position: absolute;
   left: 0;
-  top: 14px;
+  top: 8px;
 }
 /** BUTTONS */
 #replenish .btn {
