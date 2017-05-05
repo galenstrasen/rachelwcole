@@ -7,10 +7,11 @@
 				</div>
 				<div class="footer-right">
 					<div class="socials">
-						<a class="facebook" href="<?php the_field('facebook_link', 'option'); ?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/icon_footer-facebook.png"/></a>
-						<a class="twitter" href="<?php the_field('twitter_link', 'option'); ?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/icon_footer-twitter.png"/></a>
-						<a class="instagram" href="<?php the_field('instagram_link', 'option'); ?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/icon_footer-instagram.png"/></a>
-						<a class="pinterest" href="<?php the_field('pinterest_link', 'option'); ?>" target="_blank"><img src="<?php bloginfo('template_url')?>/img/icon_footer-pinterest.png"/></a>
+								<a class="facebook" href="<?php the_field('facebook_link', 'option'); ?>" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a class="twitter" href="<?php the_field('twitter_link', 'option'); ?>" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a class="instagram" href="<?php the_field('instagram_link', 'option'); ?>" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a class="pinterest" href="<?php the_field('pinterest_link', 'option'); ?>" target="_blank"><i class="fa fa-pinterest"></i></a>
+
 					</div>
 				</div>
 				<div id="back">

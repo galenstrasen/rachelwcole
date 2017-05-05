@@ -312,8 +312,12 @@ and (max-width: 991px) {
   background-size: contain;
   left: 0;
   top: 50%;
-  transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%);
   transition: all .3s ease-in-out;
+}
+
+#replenish .return-nav .return-link h5::before {
+  transform: translateY(-50%) rotate(180deg);
 }
 
 #replenish .return-link:hover h5::before {
@@ -1824,4 +1828,14 @@ and (max-width: 991px) {
   line-height: 25px;
 
   padding: 0 15px;
+}
+
+#replenish .social li a {
+  color: #c6bbba!important;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+#replenish .social li a:hover {
+  opacity: 1;
 }

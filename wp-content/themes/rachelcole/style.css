@@ -288,6 +288,10 @@ margin-left:10px;
 			#header .header1 .socials a:hover{
 				opacity:.8
 			}
+.socials .fa {
+	font-size: 14px;
+}
+
 
 			#header .header1 .socials a.facebook{
 				width: 7px;
@@ -3859,9 +3863,12 @@ max-width:100%;
 		align-items: center;
 		height: 100%;
 	}
-
+#footer .socials .fa {
+	font-size: 15px;
+}
 	#footer .footer-right .socials a{
 		padding: 0 9px;
+		color:#c6bbba;
 	}
 
 	#footer .footer-right .socials a:hover{
