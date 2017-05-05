@@ -308,11 +308,11 @@ and (max-width: 991px) {
   height: 15px;
   position: absolute;
   margin-top: -1px;
-  background: url('../img/icon_arrow.png') no-repeat left center;
+  background: url('../../../img/icons_navigation/icon_arrow-site-nav.png') no-repeat left center;
   background-size: contain;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(180deg);
   transition: all .3s ease-in-out;
 }
 
