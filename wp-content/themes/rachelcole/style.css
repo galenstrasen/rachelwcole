@@ -661,7 +661,57 @@ margin-left:10px;
     -o-transition: color 0.3s ease-in 0s;
     transition: color 0.3s ease-in 0s;}
 
+	/* CAPTCHA */
+	#signup-box-popup .gfield.robot-wrap {
+		float: left;
+		width: 100%;
+		padding-left: 5px;
 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*text-align: center;*/
+	}
+	/*#signup-box-popup .gfield.robot-wrap .gfield_label {
+		display: block;
+		font-family: "garamond-premier-pro", "AGaramondPro-Regular";
+    color: #3b4c62;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+	}*/
+
+	.gfield_captcha_container {
+
+		width: 135px;
+
+
+	}
+	.gfield_captcha_container .gfield_captcha,
+	.gfield_captcha_container .math_small {
+		/*float: left;*/
+
+	}
+	.gfield_captcha_container .math_small {
+		float: right;
+		position: relative;
+		width: 60px;
+	}
+	.gfield_captcha_container .math_small::before {
+		content: '= ';
+
+	}
+	#signup-box-popup .math_small input[type="text"] {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin: 0;
+		float: none;
+		/*margin: 0 0 0 20px;*/
+		background: white;
+		border-bottom: none;
+		width: calc(100% - 16px);
+	}
 
 /* ==========================================================================
    HOME
