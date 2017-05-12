@@ -1213,10 +1213,14 @@ margin-left:10px;
 
 		#fancybox-close{
 			background:url(img/icon_close-x.png) no-repeat !important;
-			top:15px !important;
-			right:15px !important;
+			top:50px !important;
+			right:50px !important;
 			width:15px !important;
 			height:15px !important;
+		}
+
+		#fancybox-content {
+			/*border-width: 10px!important;*/
 		}
 
 		.testimonial_container p{
