@@ -3594,6 +3594,8 @@ max-width:100%;
 			padding:0;
 		}
 
+
+		.main#blog #blogsidebar #text-7 .textwidget a,
 		.main#blog #blogsidebar .widget.widget_jal_widget li a{
 			color:#F4998E;
 			font-family:'proxima-nova', 'proxima_nova_rgregular';
