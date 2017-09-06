@@ -662,6 +662,7 @@ margin-left:10px;
     transition: color 0.3s ease-in 0s;}
 
 	/* CAPTCHA */
+	#newsletter_signup .gfield.robot-wrap,
 	#signup-box-popup .gfield.robot-wrap {
 		float: left;
 		width: 100%;
@@ -685,7 +686,7 @@ margin-left:10px;
 	.gfield_captcha_container {
 
 		width: 135px;
-
+/*background: aqua;*/
 
 	}
 	.gfield_captcha_container .gfield_captcha,
@@ -702,15 +703,20 @@ margin-left:10px;
 		content: '= ';
 
 	}
+	#newsletter_signup .math_small input[type="text"],
 	#signup-box-popup .math_small input[type="text"] {
 		padding-top: 0;
 		padding-bottom: 0;
 		margin: 0;
-		float: none;
+		float: none!important;
 		/*margin: 0 0 0 20px;*/
-		background: white;
+		background: white!important;
 		border-bottom: none;
 		width: calc(100% - 16px);
+	}
+
+	#newsletter_signup .math_small input[type="text"] {
+		color: #325b94!important;
 	}
 
 /* ==========================================================================
