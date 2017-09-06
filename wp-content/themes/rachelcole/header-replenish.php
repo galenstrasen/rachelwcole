@@ -34,3 +34,4 @@
 
 </head>
 <body <?php body_class(); ?> id="replenish">
+<?php get_template_part('/partials/ga'); ?>
