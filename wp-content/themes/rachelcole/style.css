@@ -1656,6 +1656,8 @@ margin-left:10px;
 			margin-top:15px;
 			font-weight:400;
 			font-size:38px;
+			line-height: 1;
+			margin-bottom: 15px;
 		}
 
 		.main#pyramid	.testimonials li .readmore{
@@ -1693,7 +1695,7 @@ margin-left:10px;
 			display:none;}
 
 		.main#pyramid .popup_holder p{
-			margin:0 !important;
+			/* margin:0 !important; */
 		}
 		.page-template-template_pyramid .bx-viewport{
 			box-shadow:none;
@@ -1724,9 +1726,30 @@ margin-left:10px;
 			letter-spacing:0;
 			display:inline-block;
 			width:100%;
-			margin:25px 0 !important;
+			margin: 0 0 25px 0;
 			padding:0 !important;
 		}
+
+		.popup_holder hr {
+			margin: 25px 0;
+		}
+		.popup_holder p + hr {
+			margin-top: 0;
+		}
+
+		hr + .popup_holder p{
+			margin-top: 0;
+		}
+
+		.popup_holder ol {
+			padding-left: 0;
+			list-style-position: inside;
+			line-height: 1.4;
+			font-size: 14px;
+		}
+				.popup_holder ol li {
+					margin-bottom: 15px;
+				}
 
 		.popup_holder a{
 			color:#3b4c62;
@@ -1809,7 +1832,7 @@ margin-left:10px;
 			display:none;}
 
 		.main#pyramid .testimonial_holder p{
-		max-height:132px;
+		max-height:130px;
 		min-height:45px;
 		overflow:hidden;
 		margin:0px;}
