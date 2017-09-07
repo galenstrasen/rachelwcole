@@ -192,13 +192,11 @@ $(document).ready(function(){ var j = jQuery.noConflict();
 								<div class="date"><?php the_sub_field('testimonial_date')?></div>
 								<div class="author"><?php the_sub_field('testimonial_author')?></div>
 								<div class="subtext"><?php the_sub_field('testimonial_subtext')?></div>
-									<a href="#<?php echo 'testimonial-id-' . $counter; ?>" class="fancybox-inline">
-										<?php echo $testimonial_excerpt ?>
-											<div class="readmore">...Read More</div>
-												<div class="divider"></div>
-
-
-									</a>
+								<a href="#<?php echo 'testimonial-id-' . $counter; ?>" class="fancybox-inline">
+									<?php echo $testimonial_excerpt ?>
+									<div class="readmore">...Read More</div>
+								</a>
+								<div class="divider"></div>
 									<div class="link"><a href="<?php the_sub_field('testimonial_link')?>" target="_blank"><?php the_sub_field('testimonial_link_text')?></a></div>
 								</div>
 
