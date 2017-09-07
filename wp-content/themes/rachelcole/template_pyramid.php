@@ -159,10 +159,8 @@ $(document).ready(function(){ var j = jQuery.noConflict();
 								<div class="link"><a href="<?php the_field('section_1_link')?>" target="_blank"><?php the_field('section_1_link_text')?></a></div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+					</div> -->
+				</div><!-- /fright -->
 
 			<div id="section3" class="section">
 				<div class="holder clearfix">
