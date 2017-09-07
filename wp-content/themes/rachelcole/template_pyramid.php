@@ -167,7 +167,6 @@ $(document).ready(function(){ var j = jQuery.noConflict();
 			<div id="section3" class="section">
 				<div class="holder clearfix">
 
-					<hr>
 					<div class="clearfix"></div>
 					<?php $counter = 0; ?>
 					<ul class="testimonials">
